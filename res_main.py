@@ -38,10 +38,10 @@ if __name__ == '__main__':
 	parser = argparse.ArgumentParser()
 	data_arg = add_argument_group('Data')
 	
-	data_arg.add_argument('--dataset_name', type=str, default="laptop")
-	data_arg.add_argument('--train_file', type=str, default="./data/ASTE/laptop/train.json")
-	data_arg.add_argument('--valid_file', type=str, default="./data/ASTE/laptop/dev.json")
-	data_arg.add_argument('--test_file', type=str, default="./data/ASTE/laptop/test.json")
+	data_arg.add_argument('--dataset_name', type=str, default="rest16")
+	data_arg.add_argument('--train_file', type=str, default="./data/ASTE/rest16/train.json")
+	data_arg.add_argument('--valid_file', type=str, default="./data/ASTE/rest16/dev.json")
+	data_arg.add_argument('--test_file', type=str, default="./data/ASTE/rest16/test.json")
 
 	data_arg.add_argument('--generated_data_directory', type=str, default="./data/in-domain/")
 	data_arg.add_argument('--generated_param_directory', type=str, default="./data/in-domain/model_param/")
