@@ -1,0 +1,5 @@
+python res_main.py --use_gpu 1 --random_seed 43 --crossType 1 --test_file ./data/ASTE/laptop/test.json --generated_data_directory ./data/cross1/ --generated_param_directory ./data/cross1/model_param/ > res1_43.txt
+python res_main.py --use_gpu 1 --random_seed 46 --crossType 1 --test_file ./data/ASTE/laptop/test.json --generated_data_directory ./data/cross1/ --generated_param_directory ./data/cross1/model_param/ > res1_46.txt
+python res_main.py --use_gpu 1 --random_seed 47 --crossType 1 --test_file ./data/ASTE/laptop/test.json --generated_data_directory ./data/cross1/ --generated_param_directory ./data/cross1/model_param/ > res1_47.txt
+python res_main.py --use_gpu 1 --random_seed 48 --crossType 1 --test_file ./data/ASTE/laptop/test.json --generated_data_directory ./data/cross1/ --generated_param_directory ./data/cross1/model_param/ > res1_48.txt
+python res_main.py --use_gpu 1 --random_seed 49 --crossType 1 --test_file ./data/ASTE/laptop/test.json --generated_data_directory ./data/cross1/ --generated_param_directory ./data/cross1/model_param/ > res1_49.txt
