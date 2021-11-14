@@ -184,7 +184,7 @@ class Trainer(nn.Module):
 
 		if self.args.crossType == 0:
 			out_file = open(f'./logs/{self.args.dataset_name}/in-domain/test_results_{self.args.random_seed}.json', "w")
-		if self.args.crossType == 1:
+		elif self.args.crossType == 1:
 			out_file = open(f'./logs/{self.args.dataset_name}/cross1/test_results_{self.args.random_seed}.json', "w")
 		else:
 			out_file = open(f'./logs/{self.args.dataset_name}/cross2/test_results_{self.args.random_seed}.json', "w")
